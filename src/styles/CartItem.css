@@ -1,0 +1,8 @@
+.cart-item__details-qty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-item__details-qty p {
+  margin: 1rem 0.5rem;
+}

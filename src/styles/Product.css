@@ -1,0 +1,15 @@
+.card-title-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-action-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-body a{
+  text-decoration: none;
+  color: black;
+}
