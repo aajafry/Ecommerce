@@ -14,7 +14,7 @@ import {
   Protected,
   Register,
   Reset,
-} from "./pages/index.js";
+} from "./Pages/index.js";
 
 import "./App.css";
 
