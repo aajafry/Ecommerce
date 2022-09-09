@@ -2,17 +2,19 @@ import { Route, Routes } from "react-router-dom";
 import { AuthProvider } from "./contexts/AuthContext";
 import { ChecProvider } from "./contexts/ChecContext";
 
-import Footer from "./components/Footer.jsx";
-import Navbar from "./components/Navbar.jsx";
+import { Footer, Navbar } from "./components/index";
 
-import Carts from "./Pages/Carts.jsx";
-import Checkout from "./Pages/Checkout.jsx";
-import LogIn from "./Pages/Login.jsx";
-import Products from "./Pages/Products.jsx";
-import ProductView from "./Pages/ProductView.jsx";
-import Protected from "./Pages/Protected";
-import Register from "./Pages/Register";
-import Reset from "./Pages/Reset";
+import {
+  Carts,
+  Checkout,
+  LogIn,
+  NotFound,
+  Products,
+  ProductView,
+  Protected,
+  Register,
+  Reset,
+} from "./pages/index.js";
 
 import "./App.css";
 
@@ -29,6 +31,7 @@ function App() {
             <Route path="/register" element={<Register />} />
             <Route path="/login" element={<LogIn />} />
             <Route path="/reset" element={<Reset />} />
+            <Route path="*" element={<NotFound />} />
             <Route
               path="/checkout"
               element={
@@ -38,6 +41,7 @@ function App() {
               }
             />
           </Routes>
+
           <Footer />
         </AuthProvider>
       </ChecProvider>

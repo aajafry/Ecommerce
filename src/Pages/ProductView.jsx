@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import Product from "../components/Product";
+import { Product } from "../components/index";
 import { commerce } from "../lib/commerce";
 
 export default function ProductView() {
@@ -17,7 +17,7 @@ export default function ProductView() {
   }, []);
 
   return (
-    <div className="container">
+    <div className="container" style={{ marginTop: "5rem " }}>
       <div className="row">
         <div className="col-md-3">
           <Product product={product} />

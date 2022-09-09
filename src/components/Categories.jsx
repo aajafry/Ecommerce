@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { commerce } from "../lib/commerce";
 
-import Product from "./Product";
+import { Product } from "./index";
 
 export default function Categories() {
   const [categories, setCategories] = useState([]);

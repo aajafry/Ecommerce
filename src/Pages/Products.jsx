@@ -1,7 +1,5 @@
 import React from "react";
-import Banner from "../components/Banner";
-import Categories from "../components/Categories";
-import Product from "../components/Product";
+import { Banner, Categories, Product } from "../components/index";
 import { useChec } from "../contexts/ChecContext";
 
 export default function Products() {

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useChec } from "../contexts/ChecContext";
 import { commerce } from "../lib/commerce";
 import "../styles/AddressForm.css";
-import FormInput from "./FormInput";
+import { FormInput } from "./index";
 
 export default function AddressForm({ next }) {
   const [shippingCountries, setshippingCountries] = useState({});

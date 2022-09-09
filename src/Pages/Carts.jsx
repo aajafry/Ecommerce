@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CartItem from "../components/CartItem";
+import { CartItem } from "../components/index";
 import { useChec } from "../contexts/ChecContext";
 import "../styles/Cart.css";
 
@@ -35,9 +35,11 @@ export default function Carts() {
 
       <div className="row">
         <div className="btn-group">
-          <span><button className="btn btn-success" onClick={handleEmptyCart}>
-            Empty cart
-          </button></span>
+          <span>
+            <button className="btn btn-success" onClick={handleEmptyCart}>
+              Empty cart
+            </button>
+          </span>
           <Link to="/checkout">
             <button className="btn btn-success">Checkout</button>
           </Link>

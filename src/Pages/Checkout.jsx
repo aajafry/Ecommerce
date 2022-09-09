@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Step, Stepper } from "react-form-stepper";
-import AddressForm from "../components/AddressForm";
-import Confirmation from "../components/Confirmation";
-import PaymentForm from "../components/PaymentForm";
+
+import { AddressForm, Confirmation, PaymentForm } from "../components/index";
 import { useChec } from "../contexts/ChecContext";
 
 const steps = ["Shiping Address", "Payment Details"];

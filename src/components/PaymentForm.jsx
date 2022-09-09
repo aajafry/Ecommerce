@@ -6,7 +6,7 @@ import {
 import { loadStripe } from "@stripe/stripe-js";
 import React from "react";
 import { useChec } from "../contexts/ChecContext";
-import Review from "./Review";
+import { Review } from "./index";
 
 const StripePromise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
 

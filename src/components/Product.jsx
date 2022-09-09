@@ -7,7 +7,7 @@ import "../styles/Product.css";
 export default function Product({ product }) {
   const { handleAddToCart } = useChec();
   return (
-    <div className="card">
+    <div className="card" style={{ marginBottom: "1rem" }}>
       <img
         src={product.image?.url}
         className="card-img-top"
