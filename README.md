@@ -1,5 +1,5 @@
 # Create React App Ecommerce Project.
-[Site url](https://jafry-ecommerce.netlify.app/).
+[Live Site](https://jafry-ecommerce.netlify.app/).
 
 ## Explored Technologies.
 - [React](https://reactjs.org/).
